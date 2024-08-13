@@ -63,6 +63,6 @@ function calculaMediaFinal() {
 function atualizaMediaFinal() {
     const mediaFinal = calculaMediaFinal()
 
-    valorMediaFinal.innerHTML = mediaFinal
+    valorMediaFinal.innerHTML = mediaFinal.toFixed(2)
     resultadoFinal.innerHTML = mediaFinal >= notaMinima ? spanAprovado : spanReprovado
 }
