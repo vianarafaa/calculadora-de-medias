@@ -1,6 +1,4 @@
 const form = document.getElementById('form-atividade')
-const imgAprovado = "<img src='images/aprovado.png' alt='Emoji celebrando'/>"
-const imgReprovado = "<img src='images/reprovado.png' alt='Emoji decepcionado'/>"
 const inputNomeAtividade = document.getElementById('nome-atividade')
 const inputNotaAtividade = document.getElementById('nota-atividade')
 const valorMediaFinal = document.getElementById('media-final-valor')
@@ -10,6 +8,8 @@ const atividades = []
 const notas = []
 const spanAprovado = '<span class="resultado aprovado">Aprovado</span>'
 const spanReprovado = '<span class="resultado reprovado">Reprovado</span>'
+const imgAprovado = "<img src='images/aprovado.png' alt='Emoji celebrando'/>"
+const imgReprovado = "<img src='images/reprovado.png' alt='Emoji decepcionado'/>"
 
 const notaMinima = parseFloat(prompt('Digite a nota mínima'))
 
